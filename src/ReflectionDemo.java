@@ -34,7 +34,7 @@ public class ReflectionDemo {
         field.setAccessible(true);
 
         field.set(testObj, "testObj TestStringChanged");
-        field.set(testObj1, "test1 TestStringChanged");
+        field.set(testObj1, "testObj1 TestStringChanged");
 
         methodcall1.invoke(testObj);
         methodcall1.invoke(testObj1);
